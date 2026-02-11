@@ -60,6 +60,7 @@ group :development do
   # gem "spring"
   gem 'devise'
   gem 'pry-rails'
+  
 
 end
 
@@ -67,3 +68,5 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
 end
+gem 'mini_magick'
+gem 'image_processing', '~> 1.2'
